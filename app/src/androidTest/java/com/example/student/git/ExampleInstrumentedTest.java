@@ -20,7 +20,8 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
-
+	System.out.println("simple test");
         assertEquals("com.example.student.git", appContext.getPackageName());
+	// this is simple test to check diff
     }
 }
