@@ -24,5 +24,5 @@ public class ExampleInstrumentedTest {
         //to test pull command i just added a comment here
         assertEquals("com.example.student.git", appContext.getPackageName());
 	// this is simple test to check diff
-    }
+    }// aging i added a text to check pull
 }
